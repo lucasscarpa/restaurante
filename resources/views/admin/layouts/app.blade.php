@@ -8,9 +8,9 @@
 
     <title>{{ config('app.name', 'SB Admin 2 | cham11ng') }}</title>
 
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/timeline.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/admin.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/timeline.css') }}">
 
     <!-- Scripts -->
     <script>
@@ -23,8 +23,8 @@
 <body>
 @yield('body')
 
-<script src="{{ asset("js/app.js") }}"></script>
-<script src="{{ asset("js/Chart.js") }}"></script>
-<script src="{{ asset("js/admin.js") }}"></script>
+<script src="{{ secure_asset("js/app.js") }}"></script>
+<script src="{{ secure_asset("js/Chart.js") }}"></script>
+<script src="{{ secure_asset("js/admin.js") }}"></script>
 </body>
 </html>
