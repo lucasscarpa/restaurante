@@ -1,7 +1,7 @@
 @extends('admin.layouts.dashboard')
 
 @section('script')
-    <script src="{{ url('js/obra.js') }}"></script>
+    <script src="{{ url('js/mesa.js') }}"></script>
 @endsection 
 
 

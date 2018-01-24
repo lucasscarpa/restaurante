@@ -25,5 +25,7 @@
 
 <script src="{{ secure_asset("js/app.js") }}"></script>
 <script src="{{ secure_asset("js/Chart.js") }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+@yield('script')
 </body>
 </html>
