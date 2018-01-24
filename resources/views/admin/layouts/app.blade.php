@@ -25,6 +25,5 @@
 
 <script src="{{ secure_asset("js/app.js") }}"></script>
 <script src="{{ secure_asset("js/Chart.js") }}"></script>
-<script src="{{ secure_asset("js/admin.js") }}"></script>
 </body>
 </html>
