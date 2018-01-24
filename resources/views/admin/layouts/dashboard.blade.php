@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url ('/admin') }}">{{ config('app.name', 'Laravel') }}</a>
+                <a class="navbar-brand" href="{{ url ('/admin') }}">Frida Restaurante Bar</a>
             </div>
             <!-- /.navbar-header -->
 
